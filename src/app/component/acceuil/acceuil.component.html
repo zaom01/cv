@@ -1,0 +1,245 @@
+<div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">{{ 'Nav.About' | translate }}</a>
+            </li>
+            <li>
+                <a href="#experience">{{ 'Nav.Experience' | translate }}</a>
+            </li>
+            <li>
+                <a href="#education">{{ 'Nav.Education' | translate }}</a>
+            </li>
+            <li>
+                <a href="#projects">{{ 'Nav.Projects' | translate }}</a>
+            </li>
+            <li>
+                <a href="#skills">{{ 'Nav.Skills' | translate }}</a>
+            </li>
+            <li>
+                <a href="#contact">{{ 'Nav.Contact' | translate }}</a>
+            </li>
+            <li>
+                     <select #langSelect (change)="translate.use(langSelect.value)">
+                         <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+                      </select>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Mohamed Zaouali</h1>
+            <h2>{{ 'Nav.lead' | translate }}</h2>
+            <a href="../../../assets/images/CV_Zaouali_Mohamed_fr.pdf"
+            download="CV_Zaouali_Mohamed_fr"class="btn-rounded-white">{{ 'Nav.cv' | translate }}</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">{{ 'Nav.About' | translate }}</h2>
+                </div>
+                <div class="col-md-8">
+                  <ul>
+                      <li>{{ 'Nav.About1' | translate }}</li>
+                      <li>{{ 'Nav.About2' | translate }}</li>
+                      <li>{{ 'Nav.About3' | translate }}</li>
+                 </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">{{ 'Nav.Experience' | translate }}</h2>
+        <div id="experience-timeline">
+          <span class="vtimeline-date">{{ 'Nav.date1'| translate }}</span>
+            <div id="date">
+                <h3>{{ 'Nav.emp1'| translate }}</h3>
+                <h4>{{ 'Nav.namejob1'| translate }}</h4>
+
+                  <ul>
+                    <li> {{ 'Nav.desc11'| translate }} </li>
+                    <li> {{ 'Nav.desc12'| translate }} </li>
+                    <li> {{ 'Nav.desc13'| translate }} </li>
+                 </ul>
+
+            </div>
+
+            <div id="date">
+              <span class="vtimeline-date">{{ 'Nav.date2'| translate }}</span>
+                <h3>{{ 'Nav.emp2'| translate }}</h3>
+                <h4>{{ 'Nav.namejob2'| translate }}</h4>
+                <ul>
+                  <li> {{ 'Nav.desc21'| translate }} </li>
+                  <li> {{ 'Nav.desc22'| translate }} </li>
+
+               </ul>
+            </div>
+
+
+            <div  id="date">
+              <span class="vtimeline-date">{{ 'Nav.date3'| translate }}</span>
+              <h3>{{ 'Nav.emp3'| translate }}</h3>
+              <h4>{{ 'Nav.namejob3'| translate }}</h4>
+              <ul>
+                <li> {{ 'Nav.desc31'| translate }} </li>
+                <li> {{ 'Nav.desc32t'| translate }}</li>
+                <ul>
+                  <li> {{ 'Nav.desc32d.1'| translate }} </li>
+                  <li> {{ 'Nav.desc32d.2'| translate }} </li>
+                  <li> {{ 'Nav.desc32d.3'| translate }} </li>
+                  <li> {{ 'Nav.desc32d.4'| translate }} </li>
+                  <li> {{ 'Nav.desc32d.5'| translate }} </li>
+
+                </ul>
+              </ul>
+            </div>
+            <div  id="date">
+              <span class="vtimeline-date">{{ 'Nav.date3'| translate }}</span>
+              <h3>{{ 'Nav.emp3'| translate }}</h3>
+              <h4>{{ 'Nav.namejob4'| translate }}</h4>
+              <ul>
+                <li> {{ 'Nav.desc41'| translate }} </li>
+                <li> {{ 'Nav.desc42t'| translate }}</li>
+                <ul>
+                  <li> {{ 'Nav.desc42d.1'| translate }} </li>
+                  <li> {{ 'Nav.desc42d.2'| translate }} </li>
+                  <li> {{ 'Nav.desc42d.3'| translate }} </li>
+                  <li> {{ 'Nav.desc42d.4'| translate }} </li>
+                  <li> {{ 'Nav.desc42d.5'| translate }} </li>
+
+                </ul>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">{{ 'Nav.Education' | translate }}</h2>
+        <div class="education-block">
+            <h3>{{ 'Nav.emp3'| translate }}</h3>
+            <span class="education-date">{{ 'Nav.edudate'| translate }}</span>
+            <h4>{{ 'Nav.dip'| translate }}</h4>
+            <p>
+
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">{{ 'Nav.Projects' | translate }}</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="../../assets/images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Mobi Mania</h3>
+                        <p>
+                            https://mobimania.ca/
+                        </p>
+                        <a href="https://mobimania.ca/">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+
+
+
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">{{ 'Nav.Skills' | translate }}</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>AngularJs,2,4,5,6,7</li>
+            <li>React</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>{{ 'Nav.Contact' | translate }}</h2>
+        <div id="contact-form">
+
+            <form method="POST" action="https://formspree.io/zaouali.mohamed15@gmail.com">
+                      <input type="hidden" name="_subject" value="Contact request from personal website" />
+                      <input type="email" name="email" placeholder="{{ 'Nav.email' | translate }}">
+                      <textarea name="message" placeholder="{{ 'Nav.message' | translate }}"></textarea>
+                    <button type="submit">{{ 'Nav.send' | translate }}</button>
+             </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Zaouali Mohamed
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/zaom01" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/7733136/mohamed-zaouali" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mohamed-zaouali-023368135/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->

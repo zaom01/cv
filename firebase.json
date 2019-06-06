@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site":"zaouali-mohamed",
+    "public": "dist/cv",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

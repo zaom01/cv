@@ -1,0 +1,55 @@
+{
+  "Nav": {
+    "About": "À propos",
+    "lead":"Informaticien / Développeur",
+    "cv":"Télécharger le CV",
+    "About1":"Je suis un développeur Web capable de créer une application Web à partir de la base à la conception de la page , de la navigation, de la mise en page et de la programmation à l'UX design et au SEO",
+    "About2":"Habile à rédiger un code bien conçu, testable et efficace, en utilisant les meilleures pratiques actuelles en matière de développement Web.",
+    "About3":"Apprenti rapide, travailleur acharné et joueur d'équipe, maîtrisant un grand nombre de langages de script et d'outils Web multimédia.",
+    "Experience": "Expérience",
+    "date1":"Juillet 2015 - Aout 2019",
+    "emp1":"Arab Tunisian Bank, Tunis (Tunisie)",
+    "namejob1":"Assistant technique à l’informatique - Stage",
+    "desc11":"Contrôler les distributeurs automatiques d’argent à l’aide d’un moniteur qui donne l’état de chaque distributeur",
+    "desc12":"Intervenir pour régler les problèmes du distributeur : bourrage de papier, distributeur vide d’argent ou bien référer les problèmes complexes à un technicien senior si nécessaire",
+    "desc13":"Résoudre les incidents informatiques rencontrés par les employés de la banque tels qu’une erreur dans une application, un problème lié aux systèmes d’exploitation ou problèmes de connexion au réseau",
+    "date2":"Mai 2018 - Juin 2018",
+    "emp2":"Université du Québec en Outaouais",
+    "namejob2":"Assistant en Enseignement (cours : initiation a la création de page web)",
+    "desc21":"Encadrer les étudiants et offrir l’assistance pédagogique dans les cours de technologie Internet",
+    "desc22":"Dispenser des séances de travaux dirrigés portant sur la créeration des sites web avec HTML5, CSS3, Javascript, JQuery",
+    "date3":"Janvier 2019 - avril 2019",
+    "emp3":"Université du Québec en Outaouais",
+    "namejob3":"Assistant en Enseignement (cours : Technique de base de données)",
+    "desc31":"Encadrer les étudiants et offrir l’assistance pédagogique dans les cours d’utilisation des bases de données",
+    "desc32t":"Dispenser des séances de travaux dirrigés portant sur :",
+    "desc32d.1":"Familiariser l’étudiant avec les techniques de bases de données.",
+    "desc32d.2":"Former l’étudiant aux principes des bases de données relationnelles et de leur système de gestion en lui fournissant une vue globale du domaine.",
+    "desc32d.3":"Fournir une description du fonctionnement et des fonctionnalités des SGBD en utilisant SQL Server comme exemple",
+    "desc32d.4":"Offrir une compréhension des principes de la modélisation de données et permettre à l’étudiant d'élaborer des schémas de données relationnels et normalisés.",
+    "desc32d.5":"Familiariser l’étudiant avec le langage SQL qui sera utilisé activement pour la description et la manipulation des bases de données.",
+    "namejob4":"Assistant en Enseignement (cours : Technique de commerce électronique)",
+    "desc41":"Encadrer les étudiants et offrir l’assistance pédagogique dans les cours de technologie Internet",
+    "desc42t":"Dispenser des séances de travaux dirrigés portant sur :",
+    "desc42d.1":"Démarrer une application du commerce électronique avec ASP.Net.",
+    "desc42d.2":"Formulaires HTML et formulaires ASP",
+    "desc42d.3":"Validation des données des formulaires",
+    "desc42d.4":"Manipulation de bases de données à travers l'interface graphique de Visual Studio",
+    "desc42d.5":"Intégration d’un système de paiement électronique avec Paypal",
+    "Education": "Éducation",
+    "edudate":"Janvier 2016 - avril 2019",
+    "dip":"Baccalauréat en informatique",
+    "Projects": "Projets",
+    "descpro1":"",
+    "Skills": "Compétences",
+    "Contact": "Contactez moi",
+    "email":"Votre email",
+    "message":"Votre message",
+    "send":"Envoyer"
+  }
+
+
+
+
+
+}
